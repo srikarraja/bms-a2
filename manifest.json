@@ -4,7 +4,7 @@
   "version": "2",
 
 "browser_action": {
-  "default_icon": "https://lh6.ggpht.com/7DyCd4vhU-gz6iXhqk8aOiKQEo_Vt8fWRZRuU_jDYFmPosvcASchS3i_n9nDOiOAYQ=w300-rw",
+  "default_icon": "icon.png",
     "default_popup": "popup.html"
 },
 "content_scripts": [
