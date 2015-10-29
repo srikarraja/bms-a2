@@ -2,14 +2,31 @@
 <html>
   <head>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="js/popup.js"></script>
-    <script src="js/jquery.js"></script>
+   <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>	
   </head>
   <body>
-<div class="col-md-12">
-<img src="http://in.bookmyshow.com/job-listings/wp-content/themes/bms-listings/images/logo.png"></img><br/>
-    <input class="form-control" type="text" id="searchText"><br/>
-   
+<div class="container">
+
+
+<button class="btn btn-disabled btn-success" style="padding-left:100px;padding-right:100px;" disabled="true"><h3>Search</h3></button><br/><br/>
+<table>
+<tr>
+<td colspan="3">
+    <input class="form-control" type="text" id="searchText" placeholder="Enter text to be searched">
+</td>
+<td colspan="10">
+</td>
+<td colspan="2">
+   <center> 
+   <button class="btn btn-primary col-md-2" type="submit" id="searchBtn" >
+   <i class="fa fa-search fa-1x fa-fw "></i></button>
+   </center>
+</td>
+</tr>
+</table>
+<br/>
   </body>
 </html>

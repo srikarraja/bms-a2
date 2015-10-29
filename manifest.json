@@ -2,21 +2,33 @@
 "manifest_version": 2,
   "name": "BMS",
   "version": "2",
-
+  "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" },
 "browser_action": {
   "default_icon": "icon.png",
     "default_popup": "popup.html"
 },
+  "background":{
+
+    "pages":["background.html"]
+  },
+
 "content_scripts": [
     {
         "matches" : [
             "<all_urls>"
         ],
+        
         "js" : [
-            "js/search.js"
+            "js/search.js","js/jquery.js"
         ]
+
     }
 ],
+"web_accessible_resources": [
+                "highlight.css"
+        ],
 
  "permissions": [
      "<all_urls>","activeTab"
