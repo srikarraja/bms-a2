@@ -10,7 +10,7 @@ style.href = chrome.extension.getURL('highlight.css');
 (document.head||document.documentElement).appendChild(style);
     
 
-        var selector = 'html';                             //use body as selector if none provided
+        var selector = "body";                             //use body as selector if none provided
         var searchTermRegEx = new RegExp(text,"ig");
         var matches = $(selector).text().match(searchTermRegEx);
         if(matches) {
