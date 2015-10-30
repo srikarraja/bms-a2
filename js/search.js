@@ -24,5 +24,5 @@ style.href = chrome.extension.getURL('highlight.css');
         }
     
     return false;
-
+ 
 });
